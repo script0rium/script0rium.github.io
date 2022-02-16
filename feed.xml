@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-16T23:14:39+08:00</updated>
+  <updated>2022-02-17T01:09:10+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>http://localhost:4000/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>BASH</title>
-    <link href="http://localhost:4000/posts/Linux-synopsis/" rel="alternate" type="text/html" title="BASH" />
+    <link href="http://localhost:4000/posts/BASH/" rel="alternate" type="text/html" title="BASH" />
     <published>2022-02-03T00:00:00+08:00</published>
   
-    <updated>2022-02-16T23:10:06+08:00</updated>
+    <updated>2022-02-03T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Linux-synopsis/</id>
-    <content src="http://localhost:4000/posts/Linux-synopsis/" />
+    <id>http://localhost:4000/posts/BASH/</id>
+    <content src="http://localhost:4000/posts/BASH/" />
     <author>
       <name>James Philip</name>
     </author>
