@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-17T01:36:21+08:00</updated>
+  <updated>2022-02-17T03:14:40+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Shell Scripting</title>
+    <link href="http://localhost:4000/posts/Shell-Scripting/" rel="alternate" type="text/html" title="Shell Scripting" />
+    <published>2022-02-16T00:00:00+08:00</published>
+  
+    <updated>2022-02-16T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Shell-Scripting/</id>
+    <content src="http://localhost:4000/posts/Shell-Scripting/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.
+
+Marijn Haverbeke
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -48,11 +88,14 @@
 
 
 
-      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory. 
+      The BASH shell provides a machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.
 
-Marijn Haverbeke
+Open the shell window, or terminal, with  CTL Alt T   and type:
 
-The BASH shell provides a machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language...
+$ lshw 
+
+
+This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) architecture....
     </summary>
   
 
