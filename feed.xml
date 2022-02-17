@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-17T03:24:55+08:00</updated>
+  <updated>2022-02-17T19:03:33+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>http://localhost:4000/</uri>
@@ -88,14 +88,14 @@ Marijn Haverbeke
 
 
 
-      The BASH shell provides a machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.
+      The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.
 
 Open the shell window, or terminal, with  CTL Alt T   and type:
 
 $ lshw 
 
 
-This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) architecture....
+This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) arch...
     </summary>
   
 
