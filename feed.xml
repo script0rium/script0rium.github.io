@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-18T16:29:09+08:00</updated>
+  <updated>2022-02-18T16:44:08+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>http://localhost:4000/</uri>
@@ -48,9 +48,9 @@
 
 
 
-      Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world - whether you know it or not.
+      Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world, whether you know it or not.
 
-Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human opponent in a strategy game, or the OS of your mobile dev...
+Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human opponent in a strategy game, or the OS of your mobile devi...
     </summary>
   
 
