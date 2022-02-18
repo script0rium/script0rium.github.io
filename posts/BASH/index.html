@@ -33,23 +33,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.1" />
-<meta property="og:title" content="BASH" />
+<meta property="og:title" content="BASH and the Command-line Interface" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input and a programming language with its own command syntax." />
-<meta property="og:description" content="The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input and a programming language with its own command syntax." />
+<meta name="description" content="The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input, and a programming language. This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand. We construct text commands to feed to the interpreter at the command line interface (CLI)." />
+<meta property="og:description" content="The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input, and a programming language. This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand. We construct text commands to feed to the interpreter at the command line interface (CLI)." />
 <link rel="canonical" href="http://localhost:4000/posts/BASH/" />
 <meta property="og:url" content="http://localhost:4000/posts/BASH/" />
 <meta property="og:site_name" content="Script0rium" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-02-03T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="BASH" />
+<meta property="twitter:title" content="BASH and the Command-line Interface" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-17T01:26:08+08:00","datePublished":"2022-02-03T00:00:00+08:00","description":"The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input and a programming language with its own command syntax.","headline":"BASH","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/BASH/"},"url":"http://localhost:4000/posts/BASH/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-17T01:26:08+08:00","datePublished":"2022-02-03T00:00:00+08:00","description":"The BASH shell provides a powerful machine-user interface for Linux systems. It is both a program that interprets user input, and a programming language. This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand. We construct text commands to feed to the interpreter at the command line interface (CLI).","headline":"BASH and the Command-line Interface","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/BASH/"},"url":"http://localhost:4000/posts/BASH/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>BASH | Script0rium
+  <title>BASH and the Command-line Interface | Script0rium
   </title>
 
   <!--
@@ -263,7 +263,7 @@
         
 
           
-            <span>BASH</span>
+            <span>BASH and the Command-line Interface</span>
           
 
         
@@ -391,7 +391,7 @@
 
 
 
-<h1 data-toc-skip>BASH</h1>
+<h1 data-toc-skip>BASH and the Command-line Interface</h1>
 
 <div class="post-meta text-muted">
 
@@ -472,8 +472,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="341 words">
-  <em>1 min</em> read</span>
+  title="388 words">
+  <em>2 min</em> read</span>
 
 
       <!-- page views -->
@@ -485,7 +485,9 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.</p>
+  <p>The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input, and a programming language.  This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand.  We construct text commands to feed to the interpreter at the command line interface (CLI).</p>
+
+<p>Although it might appear to be a stunted, or alien, way to engage with a computing system, the CLI is a highly useful tool.  Ultimately, BASH and the CLI allow for greater system insight and control, enable automation, and can aid you in decimating tediously routine tasks.</p>
 
 <p>Open the shell window, or terminal, with  <code class="language-plaintext highlighter-rouge">CTL Alt T</code>   and type:</p>
 
@@ -520,11 +522,11 @@ slot: CPU Socket - U3E1
 
 <p>The exact specifications we required, and just by stacking another command alongside the first, joined by the character, <code class="language-plaintext highlighter-rouge">|</code>.  This symbol is more than a mere conjunction, though.  The second command took the output from the first and computed it.</p>
 
-<p>We identified to the system what data we wanted to examine, the output from the command <code class="language-plaintext highlighter-rouge">lshw</code>, and using <code class="language-plaintext highlighter-rouge">grep</code>, searched and returned the exact ‘string’, or configuration of letters we were looking for.  This is an example of piping in Linux, and you can get an inkling of the power at your fingertips when you familiarise yourself with shell syntax.</p>
+<p>We identified to the system what data we wanted to examine, the output from the command <code class="language-plaintext highlighter-rouge">lshw</code>, and using <code class="language-plaintext highlighter-rouge">grep</code>, searched and returned the exact ‘string’, or configuration of letters we were looking for.  This is an example of piping in Linux, and you now have an inkling of the power at your fingertips when you familiarise yourself with shell syntax, and the command-line interface.</p>
 
-<p>We learn the shell’s inelegant syntax, from which we construct commands to feed to the interpreter at the command line interface, to harness our machine’s resources.  Computers extend our human faculties. We benefit from a computer’s meticulous memory, knowledge of its graphical processing capabilities for gaming, the ability to orchestrate processes in repeatable ways, parsing and manipulating data in volumes and at speeds incomprehensible to humans.  This is most effectively done  in Linux systems through shell-scripts.</p>
+<p>Utilising BASH and the CLI enables us to fully harness our machine’s resources.  The capability to orchestrate tailored processes in repeatable ways, that of <em>automation</em>, is most effectively done on Linux systems through shell-scripts.</p>
 
-<p>The shell can also interpret commands saved into plain text files called shell-scripts.  Many core system files are, in fact, shell-scripts.  With these we craft more complex commands, defining unique variables and functions, giving us the capability of automation.</p>
+<p>The shell can interpret commands saved into plain text files called shell-scripts.  Many core system files are, in fact, shell-scripts.  With these we can craft more complex commands, saving them to be run at a later date to replicate a process.</p>
 
 </div>
 
@@ -572,19 +574,19 @@ slot: CPU Socket - U3E1
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=BASH - Script0rium&amp;url=http://localhost:4000/posts/BASH/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=BASH and the Command-line Interface - Script0rium&amp;url=http://localhost:4000/posts/BASH/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=BASH - Script0rium&amp;u=http://localhost:4000/posts/BASH/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=BASH and the Command-line Interface - Script0rium&amp;u=http://localhost:4000/posts/BASH/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://t.me/share/url?url=http://localhost:4000/posts/BASH/&amp;text=BASH - Script0rium" data-toggle="tooltip" data-placement="top"
+        <a href="https://t.me/share/url?url=http://localhost:4000/posts/BASH/&amp;text=BASH and the Command-line Interface - Script0rium" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -639,7 +641,7 @@ slot: CPU Socket - U3E1
         
         
         
-      <li><a href="/posts/BASH/">BASH</a></li>
+      <li><a href="/posts/BASH/">BASH and the Command-line Interface</a></li>
       
     </ul>
   </div> <!-- #access-lastmod -->
@@ -723,6 +725,19 @@ slot: CPU Socket - U3E1
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
 
 
 
@@ -742,6 +757,12 @@ slot: CPU Socket - U3E1
     
   
     
+    
+  
+    
+    
+      
+      
     
   
 
@@ -765,10 +786,10 @@ slot: CPU Socket - U3E1
 -->
 
 <em class="timeago small"
-    data-ts="1644940800"
+    data-ts="1643644800"
     
     >
-  2022-02-16
+  2022-02-01
 </em>
 
             <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Shell Scripting</h3>
@@ -787,6 +808,39 @@ slot: CPU Socket - U3E1
         </a>
       </div>
     
+      
+      
+      <div class="card">
+        <a href="/posts/Linux/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/timeago.js
+-->
+
+<em class="timeago small"
+    data-ts="1645027200"
+    
+    >
+  2022-02-17
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>LINUX. What is it? Why care?</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world - whether y...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
     </div> <!-- .card-deck -->
   </div> <!-- #related-posts -->
 
@@ -799,16 +853,16 @@ slot: CPU Socket - U3E1
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <span class="btn btn-outline-primary disabled"
+  <a href="/posts/Shell-Scripting/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>-</p>
-  </span>
+    <p>Shell Scripting</p>
+  </a>
   
 
   
-  <a href="/posts/Shell-Scripting/" class="btn btn-outline-primary"
+  <a href="/posts/Linux/" class="btn btn-outline-primary"
     prompt="Newer">
-    <p>Shell Scripting</p>
+    <p>LINUX. What is it? Why care?</p>
   </a>
   
 

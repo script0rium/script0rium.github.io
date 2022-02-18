@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-17T19:03:33+08:00</updated>
+  <updated>2022-02-18T16:29:09+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,85 @@
 
   
   <entry>
+    <title>LINUX. What is it? Why care?</title>
+    <link href="http://localhost:4000/posts/Linux/" rel="alternate" type="text/html" title="LINUX. What is it? Why care?" />
+    <published>2022-02-17T00:00:00+08:00</published>
+  
+    <updated>2022-02-17T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux/</id>
+    <content src="http://localhost:4000/posts/Linux/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world - whether you know it or not.
+
+Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human opponent in a strategy game, or the OS of your mobile dev...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>BASH and the Command-line Interface</title>
+    <link href="http://localhost:4000/posts/BASH/" rel="alternate" type="text/html" title="BASH and the Command-line Interface" />
+    <published>2022-02-03T00:00:00+08:00</published>
+  
+    <updated>2022-02-17T01:26:08+08:00</updated>
+  
+    <id>http://localhost:4000/posts/BASH/</id>
+    <content src="http://localhost:4000/posts/BASH/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input, and a programming language.  This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand.  We construct text commands to feed to the interpreter at the command line inte...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Shell Scripting</title>
     <link href="http://localhost:4000/posts/Shell-Scripting/" rel="alternate" type="text/html" title="Shell Scripting" />
-    <published>2022-02-16T00:00:00+08:00</published>
+    <published>2022-02-01T00:00:00+08:00</published>
   
-    <updated>2022-02-16T00:00:00+08:00</updated>
+    <updated>2022-02-01T00:00:00+08:00</updated>
   
     <id>http://localhost:4000/posts/Shell-Scripting/</id>
     <content src="http://localhost:4000/posts/Shell-Scripting/" />
@@ -53,49 +127,6 @@
 Marijn Haverbeke
 
 
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>BASH</title>
-    <link href="http://localhost:4000/posts/BASH/" rel="alternate" type="text/html" title="BASH" />
-    <published>2022-02-03T00:00:00+08:00</published>
-  
-    <updated>2022-02-17T01:26:08+08:00</updated>
-  
-    <id>http://localhost:4000/posts/BASH/</id>
-    <content src="http://localhost:4000/posts/BASH/" />
-    <author>
-      <name>James Philip</name>
-    </author>
-
-  
-    
-    <category term="Software" />
-    
-    <category term="Linux" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.
-
-Open the shell window, or terminal, with  CTL Alt T   and type:
-
-$ lshw 
-
-
-This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) arch...
     </summary>
   
 

@@ -1,22 +1,22 @@
 [
   
   {
-    "title": "Shell Scripting",
-    "url": "/posts/Shell-Scripting/",
+    "title": "LINUX. What is it? Why care?",
+    "url": "/posts/Linux/",
     "categories": "Software, Linux",
     "tags": "",
-    "date": "2022-02-16 00:00:00 +0800",
+    "date": "2022-02-17 00:00:00 +0800",
     
 
 
 
 
 
-    "snippet": "A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.Marijn Haverbeke"
+    "snippet": "Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world - whether you know it or not.Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human opponent in a strategy game, or the OS of your mobile device we would, almost certainly, find evidence of Linux.Android is derived from it, as are key components of MacOS.  It is the most widely propagated operating system in cloud computing and server ecosystems.  As of 2021, every single supercomputer was powered by a Linux system.We could even discover it Mars.On the 19th of April 2021 a Linux OS booted up a small processor board, similar to chips found on Earth in Android and Sony mobile devices ten years prior.  It went on to schedule and execute the processes that caused Ingenuity, a 1.8kg helicopter drone, to successfully complete the first automated, controlled flight on another planet, in the thin Martian atmosphere."
   },
   
   {
-    "title": "BASH",
+    "title": "BASH and the Command-line Interface",
     "url": "/posts/BASH/",
     "categories": "Software, Linux",
     "tags": "",
@@ -27,7 +27,22 @@
 
 
 
-    "snippet": "The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input and a programming language with its own command syntax.Open the shell window, or terminal, with  CTL Alt T   and type:$ lshw This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) architecture.Perhaps we just want to know our CPU version for gaming considerations.  We will use the super-user sudo command here to invoke full system privileges. $ sudo lshw  | grep CPUThe output to my terminal reads:description: CPUproduct: Intel(R) Core(TM) i5-3320M CPU @ 2.60GHzversion: Intel(R) Core(TM) i5-3320M CPU @ 2.60GHzslot: CPU Socket - U3E1   The exact specifications we required, and just by stacking another command alongside the first, joined by the character, |.  This symbol is more than a mere conjunction, though.  The second command took the output from the first and computed it.We identified to the system what data we wanted to examine, the output from the command lshw, and using grep, searched and returned the exact ‘string’, or configuration of letters we were looking for.  This is an example of piping in Linux, and you can get an inkling of the power at your fingertips when you familiarise yourself with shell syntax.We learn the shell’s inelegant syntax, from which we construct commands to feed to the interpreter at the command line interface, to harness our machine’s resources.  Computers extend our human faculties. We benefit from a computer’s meticulous memory, knowledge of its graphical processing capabilities for gaming, the ability to orchestrate processes in repeatable ways, parsing and manipulating data in volumes and at speeds incomprehensible to humans.  This is most effectively done  in Linux systems through shell-scripts.The shell can also interpret commands saved into plain text files called shell-scripts.  Many core system files are, in fact, shell-scripts.  With these we craft more complex commands, defining unique variables and functions, giving us the capability of automation."
+    "snippet": "The BASH shell provides a powerful machine-user interface for Linux systems.  It is both a program that interprets user input, and a programming language.  This makes sense, as to interpret user commands the shell requires a shared language, or command syntax, that both the operating system and human can understand.  We construct text commands to feed to the interpreter at the command line interface (CLI).Although it might appear to be a stunted, or alien, way to engage with a computing system, the CLI is a highly useful tool.  Ultimately, BASH and the CLI allow for greater system insight and control, enable automation, and can aid you in decimating tediously routine tasks.Open the shell window, or terminal, with  CTL Alt T   and type:$ lshw This compact command returns your machine’s processing and data storage capabilities, specifically its central processing unit’s (CPU) architecture.Perhaps we just want to know our CPU version for gaming considerations.  We will use the super-user sudo command here to invoke full system privileges. $ sudo lshw  | grep CPUThe output to my terminal reads:description: CPUproduct: Intel(R) Core(TM) i5-3320M CPU @ 2.60GHzversion: Intel(R) Core(TM) i5-3320M CPU @ 2.60GHzslot: CPU Socket - U3E1   The exact specifications we required, and just by stacking another command alongside the first, joined by the character, |.  This symbol is more than a mere conjunction, though.  The second command took the output from the first and computed it.We identified to the system what data we wanted to examine, the output from the command lshw, and using grep, searched and returned the exact ‘string’, or configuration of letters we were looking for.  This is an example of piping in Linux, and you now have an inkling of the power at your fingertips when you familiarise yourself with shell syntax, and the command-line interface.Utilising BASH and the CLI enables us to fully harness our machine’s resources.  The capability to orchestrate tailored processes in repeatable ways, that of automation, is most effectively done on Linux systems through shell-scripts.The shell can interpret commands saved into plain text files called shell-scripts.  Many core system files are, in fact, shell-scripts.  With these we can craft more complex commands, saving them to be run at a later date to replicate a process."
+  },
+  
+  {
+    "title": "Shell Scripting",
+    "url": "/posts/Shell-Scripting/",
+    "categories": "Software, Linux",
+    "tags": "",
+    "date": "2022-02-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.Marijn Haverbeke"
   }
   
 ]
