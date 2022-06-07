@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-06-08T04:11:27+08:00</updated>
+  <updated>2022-06-08T04:25:47+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -49,11 +49,12 @@
 
 
       “Linux is a cancer”
+
 Steve Ballmer, Microsoft CEO, 2001
 
 Linux is an operating system, and a fundamental technology of the 21st Century.  One form or another of it has repeatedly helped you to view, and communicate with, the rest of the world, whether you know it or not.
 
-Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human op...
+Were we to inspect one of the servers powering Google’s search technology, the codebase of a supercomputer besting a human o...
     </summary>
   
 
@@ -166,6 +167,7 @@ Marijn Haverbeke
 
 
       “A step-by-step booklet for you to get your game on track”
+
 Christopher Wallace
 
 
