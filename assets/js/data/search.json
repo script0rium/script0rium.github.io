@@ -16,21 +16,6 @@
   },
   
   {
-    "title": "The Ten BASH Commandments",
-    "url": "/posts/The-Ten-BASH-Commandments/",
-    "categories": "Software, Linux",
-    "tags": "",
-    "date": "2022-02-04 00:00:00 +0800",
-    
-
-
-
-
-
-    "snippet": "“A step-by-step booklet for you to get your game on track” Christopher Wallace"
-  },
-  
-  {
     "title": "BASH and the Command-line Interface",
     "url": "/posts/BASH/",
     "categories": "Software, Linux",
@@ -58,6 +43,21 @@
 
 
     "snippet": "A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.Marijn Haverbeke"
+  },
+  
+  {
+    "title": "The Ten BASH Commandments",
+    "url": "/posts/The-Ten-BASH-Commandments/",
+    "categories": "Software, Linux",
+    "tags": "",
+    "date": "2022-01-31 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "“A step-by-step booklet for you to get your game on track” Christopher Wallace"
   }
   
 ]
