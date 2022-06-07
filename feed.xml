@@ -1,18 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-02-23T03:20:10+08:00</updated>
+  <updated>2022-06-08T01:49:23+08:00</updated>
   <author>
     <name>James Philip</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
-  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
   <rights> © 2022 James Philip </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -20,14 +20,52 @@
 
   
   <entry>
+    <title>The Ten BASH Commandments</title>
+    <link href="/posts/The-Ten-BASH-Commandments/" rel="alternate" type="text/html" title="The Ten BASH Commandments" />
+    <published>2022-06-07T00:00:00+08:00</published>
+  
+    <updated>2022-06-08T00:21:06+08:00</updated>
+  
+    <id>/posts/The-Ten-BASH-Commandments/</id>
+    <content src="/posts/The-Ten-BASH-Commandments/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      “A step-by-step booklet for you to get/ Your game on track” Christopher Wallace
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>LINUX. What is it? Why care?</title>
-    <link href="http://localhost:4000/posts/Linux/" rel="alternate" type="text/html" title="LINUX. What is it? Why care?" />
+    <link href="/posts/Linux/" rel="alternate" type="text/html" title="LINUX. What is it? Why care?" />
     <published>2022-02-17T00:00:00+08:00</published>
   
     <updated>2022-02-17T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Linux/</id>
-    <content src="http://localhost:4000/posts/Linux/" />
+    <id>/posts/Linux/</id>
+    <content src="/posts/Linux/" />
     <author>
       <name>James Philip</name>
     </author>
@@ -61,13 +99,13 @@ Were we to inspect one of the servers powering Google’s search technology, the
   
   <entry>
     <title>BASH and the Command-line Interface</title>
-    <link href="http://localhost:4000/posts/BASH/" rel="alternate" type="text/html" title="BASH and the Command-line Interface" />
+    <link href="/posts/BASH/" rel="alternate" type="text/html" title="BASH and the Command-line Interface" />
     <published>2022-02-03T00:00:00+08:00</published>
   
-    <updated>2022-02-17T01:26:08+08:00</updated>
+    <updated>2022-06-07T23:58:16+08:00</updated>
   
-    <id>http://localhost:4000/posts/BASH/</id>
-    <content src="http://localhost:4000/posts/BASH/" />
+    <id>/posts/BASH/</id>
+    <content src="/posts/BASH/" />
     <author>
       <name>James Philip</name>
     </author>
@@ -97,13 +135,13 @@ Were we to inspect one of the servers powering Google’s search technology, the
   
   <entry>
     <title>Shell Scripting</title>
-    <link href="http://localhost:4000/posts/Shell-Scripting/" rel="alternate" type="text/html" title="Shell Scripting" />
+    <link href="/posts/Shell-Scripting/" rel="alternate" type="text/html" title="Shell Scripting" />
     <published>2022-02-01T00:00:00+08:00</published>
   
     <updated>2022-02-01T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Shell-Scripting/</id>
-    <content src="http://localhost:4000/posts/Shell-Scripting/" />
+    <id>/posts/Shell-Scripting/</id>
+    <content src="/posts/Shell-Scripting/" />
     <author>
       <name>James Philip</name>
     </author>
