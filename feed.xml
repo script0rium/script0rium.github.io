@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-06-09T05:03:13+08:00</updated>
+  <updated>2022-06-09T05:22:40+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -98,14 +98,14 @@ Were we to inspect one of the servers powering Google’s search technology, ...
 
   
   <entry>
-    <title>Shell Scripting</title>
-    <link href="/posts/Shell-Scripting/" rel="alternate" type="text/html" title="Shell Scripting" />
+    <title>An Anatomy of a Shell Script</title>
+    <link href="/posts/An-Anatomy-of-a-Shell-Script/" rel="alternate" type="text/html" title="An Anatomy of a Shell Script" />
     <published>2022-02-01T00:00:00+08:00</published>
   
     <updated>2022-02-01T00:00:00+08:00</updated>
   
-    <id>/posts/Shell-Scripting/</id>
-    <content src="/posts/Shell-Scripting/" />
+    <id>/posts/An-Anatomy-of-a-Shell-Script/</id>
+    <content src="/posts/An-Anatomy-of-a-Shell-Script/" />
     <author>
       <name>James Philip</name>
     </author>
