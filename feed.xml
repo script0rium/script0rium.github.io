@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-07-06T22:46:31+08:00</updated>
+  <updated>2022-07-06T23:55:13+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -128,15 +128,11 @@ Were we to inspect one of the servers powering Google’s search technology, the
 
       We start here $, at the shell prompt. Press Ctrl Alt T
 
-Most Linux systems display your username followed by your system, or ‘host’, name. For me: james@scriptorium-ThinkPad-T430:~, where the Linux ‘metacharacter’, the tilde ~, represents my home directory. To find your system name input:hostname. The prompt is configurable.
+Most Linux systems display your username followed by your system, or ‘host’, name and the current working directory. For me: james@scriptorium-ThinkPad-T430:~, where the Linux ‘metacharacter’, the tilde ~, represents my home directory. To find your system name input:hostname. The prompt is configurable.
 
 $ pwd
 
-outputs the working directory.
-
-$ cd
-
-changes directories. Thi...
+outputs the working director...
     </summary>
   
 
