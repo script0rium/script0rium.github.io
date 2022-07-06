@@ -454,7 +454,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="382 words">
+  title="419 words">
   <em>2 min</em> read</span>
 
 
@@ -483,7 +483,7 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>$ cd
 </pre></td></tr></tbody></table></code></div></div>
-<p>changes directories. This command takes one ‘argument’, (additional information for the shell to process alongside the command). In this case it is the target directory. E.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
+<p>changes directories. This command takes one ‘argument’, (additional information for the shell to process alongside the command, such as filename, directory, device etc). In this case it is the target directory, e.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
 
 <p>Inputting <code class="language-plaintext highlighter-rouge">cd</code> without an argument takes you back to your home directory, while <code class="language-plaintext highlighter-rouge">cd ..</code> moves you one directory up in the filesystem.</p>
 
@@ -511,61 +511,89 @@ $ ls -al
 <code class="language-plaintext highlighter-rouge">a</code>  lists hidden files as well.
 <code class="language-plaintext highlighter-rouge">al</code> will list important file and directory information, such as permissions, size, owner.</p>
 
-<p>Commands can take multiple options.</p>
+<p>Commands can take multiple options. The full syntax is:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ cat [filename]      
-</pre></td></tr></tbody></table></code></div></div>
-<p>short for concatenate, lists the contents of a file (in the standard output).</p>
+2
+3
+</pre></td><td class="rouge-code"><pre>$ command [options] [argument 1] [argument 2]
 
+
+</pre></td></tr></tbody></table></code></div></div>
+<p>$ cat [filename]</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ man [command]
-</pre></td></tr></tbody></table></code></div></div>
-<p>brings up the user manual of any Linux command.</p>
+2
+3
+</pre></td><td class="rouge-code"><pre>short for concatenate, lists the contents of a file (in the standard output).
 
+
+</pre></td></tr></tbody></table></code></div></div>
+<p>$ man [command]</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ touch [filename1] [filename2] [filename3]
-</pre></td></tr></tbody></table></code></div></div>
-<p>modifies timestamps for a given file, or creates a new, empty file if it does not yet exist. Takes multiple arguments, e.g. to create a batch of new files.</p>
+2
+3
+</pre></td><td class="rouge-code"><pre>brings up the user manual of any Linux command.
 
+
+</pre></td></tr></tbody></table></code></div></div>
+<p>$ touch [filename1] [filename2] [filename3]</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ sudo [command]    
-</pre></td></tr></tbody></table></code></div></div>
-<p>precedes other commands, executing them with ‘super user’ permissions.</p>
+2
+3
+</pre></td><td class="rouge-code"><pre>modifies timestamps for a given file, or creates a new, empty file if it does not yet exist. Takes multiple arguments, e.g. to create a batch of new files.     
 
+
+</pre></td></tr></tbody></table></code></div></div>
+<p>$ sudo [command]</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ date
-</pre></td></tr></tbody></table></code></div></div>
-<p>outputs the date to standard output.</p>
+2
+3
+</pre></td><td class="rouge-code"><pre>precedes other commands, executing them with 'super user' permissions.
 
+
+</pre></td></tr></tbody></table></code></div></div>
+<p>$ date</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ mv
+2
+3
+</pre></td><td class="rouge-code"><pre>outputs the date to standard output.
+
+
 </pre></td></tr></tbody></table></code></div></div>
-<p>renames or moves a file.</p>
-
-<p>If the second argument is a directory this is the destination for the specified file.
-<code class="language-plaintext highlighter-rouge">mv [source file] [destination directory]</code>,</p>
-
-<p>or if used with a file as the second argument,
-<code class="language-plaintext highlighter-rouge">mv [source file] [target file]</code>, and <code class="language-plaintext highlighter-rouge">[target file]</code> doesn’t exist, it copies the first file and relabels it.</p>
-
+<p>$ mv</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ grep [string/pattern] [filename]
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>renames or moves a file.
+
+If the second argument is a directory this is the destination for the specified file.
+`mv [source file] [destination directory]`,
+
+or if used with a file as the second argument,
+`mv [source file] [target file]`, and `[target file]` doesn't exist, it copies the first file and relabels it.
+
 </pre></td></tr></tbody></table></code></div></div>
+<p>$ grep [string/pattern] [filename]
+```</p>
 
 <p>Searches for a defined pattern/strong from standard input, and prints the lines with the matching pattern.</p>
 
