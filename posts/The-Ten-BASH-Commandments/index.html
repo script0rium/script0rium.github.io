@@ -45,7 +45,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Ten BASH Commandments" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-06T19:40:10+08:00","datePublished":"2022-01-31T00:00:00+08:00","description":"We start here $, at the shell prompt. Press Ctrl Alt T","headline":"The Ten BASH Commandments","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/The-Ten-BASH-Commandments/"},"url":"/posts/The-Ten-BASH-Commandments/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-06T20:10:40+08:00","datePublished":"2022-01-31T00:00:00+08:00","description":"We start here $, at the shell prompt. Press Ctrl Alt T","headline":"The Ten BASH Commandments","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/The-Ten-BASH-Commandments/"},"url":"/posts/The-Ten-BASH-Commandments/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -441,7 +441,7 @@
 -->
 
 <em class="timeago"
-    data-ts="1657107610"
+    data-ts="1657109440"
     
       data-toggle="tooltip" data-placement="bottom" data-tooltip-df="llll"
     
@@ -472,7 +472,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="49 words">
+  title="238 words">
   <em>1 min</em> read</span>
 
 
@@ -487,7 +487,62 @@
 <div class="post-content">
   <p>We start here <code class="language-plaintext highlighter-rouge">$</code>, at the shell prompt. Press <code class="language-plaintext highlighter-rouge">Ctrl Alt T</code></p>
 
-<p>Most Linux systems display your username followed by your system, or ‘host’, name. For me: <code class="language-plaintext highlighter-rouge">james@scriptorium-ThinkPad-T430:~</code>, where the Linux ‘metacharacter’, the tilde <code class="language-plaintext highlighter-rouge">~</code>, represents your home directory. To find your system name input:<code class="language-plaintext highlighter-rouge">hostname</code>. The prompt is configurable.</p>
+<p>Most Linux systems display your username followed by your system, or ‘host’, name. For me: <code class="language-plaintext highlighter-rouge">james@scriptorium-ThinkPad-T430:~</code>, where the Linux ‘metacharacter’, the tilde <code class="language-plaintext highlighter-rouge">~</code>, represents my home directory. To find your system name input:<code class="language-plaintext highlighter-rouge">hostname</code>. The prompt is configurable.</p>
+
+<p>10 key Linux commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ pwd
+</pre></td></tr></tbody></table></code></div></div>
+<p>outputs the working directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ cd
+</pre></td></tr></tbody></table></code></div></div>
+<p>changes directories. This command takes one ‘argument’, (additional information for the shell to process alongside the command). In this case it is the target directory. E.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
+
+<p>Inputting <code class="language-plaintext highlighter-rouge">cd</code> without an argument takes you back to your home directory, while <code class="language-plaintext highlighter-rouge">cd ..</code> moves you one directory up in the filesystem. Arguments will now be shown in square brackets, <code class="language-plaintext highlighter-rouge">$ command [argument]</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ ls
+</pre></td></tr></tbody></table></code></div></div>
+<p>lists the content of the current, or specified e.g. <code class="language-plaintext highlighter-rouge">ls Documents</code>, directory.</p>
+
+<p>Most commands can have one or more options, buttons which configure the command, tailoring its output. For <code class="language-plaintext highlighter-rouge">ls</code> such options include:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>$ ls -R
+$ ls -a
+$ ls -al    
+</pre></td></tr></tbody></table></code></div></div>
+<p><code class="language-plaintext highlighter-rouge">R</code>  standing for recursively, so the command will list all directories and sub-directories.
+<code class="language-plaintext highlighter-rouge">a</code>  lists hidden files as well.
+<code class="language-plaintext highlighter-rouge">al</code> will list important file and directory information, such as permissions, size, owner.</p>
+
+<p>Commands can take multiple options.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ cat [filname]      
+</pre></td></tr></tbody></table></code></div></div>
+<p>short for concatenate, lists the contents of a file (in the standard output).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ man
+</pre></td></tr></tbody></table></code></div></div>
 
 </div>
 
