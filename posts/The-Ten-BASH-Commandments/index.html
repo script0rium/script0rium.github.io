@@ -472,8 +472,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="238 words">
-  <em>1 min</em> read</span>
+  title="372 words">
+  <em>2 min</em> read</span>
 
 
       <!-- page views -->
@@ -489,8 +489,6 @@
 
 <p>Most Linux systems display your username followed by your system, or ‘host’, name. For me: <code class="language-plaintext highlighter-rouge">james@scriptorium-ThinkPad-T430:~</code>, where the Linux ‘metacharacter’, the tilde <code class="language-plaintext highlighter-rouge">~</code>, represents my home directory. To find your system name input:<code class="language-plaintext highlighter-rouge">hostname</code>. The prompt is configurable.</p>
 
-<p>10 key Linux commands:</p>
-
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -505,7 +503,9 @@
 </pre></td></tr></tbody></table></code></div></div>
 <p>changes directories. This command takes one ‘argument’, (additional information for the shell to process alongside the command). In this case it is the target directory. E.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
 
-<p>Inputting <code class="language-plaintext highlighter-rouge">cd</code> without an argument takes you back to your home directory, while <code class="language-plaintext highlighter-rouge">cd ..</code> moves you one directory up in the filesystem. Arguments will now be shown in square brackets, <code class="language-plaintext highlighter-rouge">$ command [argument]</code>.</p>
+<p>Inputting <code class="language-plaintext highlighter-rouge">cd</code> without an argument takes you back to your home directory, while <code class="language-plaintext highlighter-rouge">cd ..</code> moves you one directory up in the filesystem.</p>
+
+<p>Arguments will now be shown in square brackets <code class="language-plaintext highlighter-rouge">$ command [argument]</code>.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
@@ -543,6 +543,46 @@ $ ls -al
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>$ man
 </pre></td></tr></tbody></table></code></div></div>
+<p>brings up the user manual of any Linux command.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ touch [filename]
+</pre></td></tr></tbody></table></code></div></div>
+<p>modifies timestamps for a given file, or creates a new, empty file if it does not yet exist. Takes multiple arguments, e.g. to create a batch of new files.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ sudo    
+</pre></td></tr></tbody></table></code></div></div>
+<p>precedes other commands, executing them with ‘super user’ permissions.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ date
+</pre></td></tr></tbody></table></code></div></div>
+<p>outputs the date to standard output.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ mv
+</pre></td></tr></tbody></table></code></div></div>
+<p>renames or moves a file.</p>
+
+<p>If the second argument is a directory this is the destination for the specified file. <code class="language-plaintext highlighter-rouge">mv [source file] [destination directory]</code>, or if used with a file as the second argument, <code class="language-plaintext highlighter-rouge">mv [source file] [target file]</code>, and <code class="language-plaintext highlighter-rouge">[target file]</code> doesn’t exist, it copies the first file and relabels it.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ grep
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Searches for a defined pattern/strong from standard input, and prints the lines with the matching pattern.</p>
+
 
 </div>
 
