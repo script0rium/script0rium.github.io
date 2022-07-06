@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-07-06T22:36:56+08:00</updated>
+  <updated>2022-07-06T22:42:00+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -98,51 +98,11 @@ Were we to inspect one of the servers powering Google’s search technology, the
 
   
   <entry>
-    <title>An Anatomy of a Shell Script</title>
-    <link href="/posts/An-Anatomy-of-a-Shell-Script/" rel="alternate" type="text/html" title="An Anatomy of a Shell Script" />
+    <title>The Ten BASH Commandments</title>
+    <link href="/posts/The-Ten-BASH-Commandments/" rel="alternate" type="text/html" title="The Ten BASH Commandments" />
     <published>2022-02-01T00:00:00+08:00</published>
   
     <updated>2022-02-01T00:00:00+08:00</updated>
-  
-    <id>/posts/An-Anatomy-of-a-Shell-Script/</id>
-    <content src="/posts/An-Anatomy-of-a-Shell-Script/" />
-    <author>
-      <name>James Philip</name>
-    </author>
-
-  
-    
-    <category term="Software" />
-    
-    <category term="Linux" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.
-
-Marijn Haverbeke
-
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Ten BASH Commandments</title>
-    <link href="/posts/The-Ten-BASH-Commandments/" rel="alternate" type="text/html" title="The Ten BASH Commandments" />
-    <published>2022-01-29T00:00:00+08:00</published>
-  
-    <updated>2022-01-29T00:00:00+08:00</updated>
   
     <id>/posts/The-Ten-BASH-Commandments/</id>
     <content src="/posts/The-Ten-BASH-Commandments/" />
@@ -177,6 +137,46 @@ outputs the working directory.
 $ cd
 
 changes directories. Thi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>An Anatomy of a Shell Script</title>
+    <link href="/posts/An-Anatomy-of-a-Shell-Script/" rel="alternate" type="text/html" title="An Anatomy of a Shell Script" />
+    <published>2022-02-01T00:00:00+08:00</published>
+  
+    <updated>2022-02-01T00:00:00+08:00</updated>
+  
+    <id>/posts/An-Anatomy-of-a-Shell-Script/</id>
+    <content src="/posts/An-Anatomy-of-a-Shell-Script/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.
+
+Marijn Haverbeke
+
+
     </summary>
   
 
