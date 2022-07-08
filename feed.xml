@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-07-08T19:15:37+08:00</updated>
+  <updated>2022-07-08T19:18:05+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -126,9 +126,9 @@ Were we to inspect one of the servers powering Google’s search technology, the
 
 
 
-      The Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T
+      Your Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T
 
-Most Linux system prompts display your username followed by your system, or host, name and the current working directory. For me it looks like this: james@scriptorium-ThinkPad-T430:~, with the Linux ‘metacharacter’, the tilde ~, representing my home directory. To find your system name input:hostname. The prompt is configu...
+Most Linux system prompts display your username followed by your system, or host, name and the current working directory. For me it looks like this: james@scriptorium-ThinkPad-T430:~, with the Linux ‘metacharacter’, the tilde ~, representing my home directory. To find your system name input:hostname. The prompt is config...
     </summary>
   
 
