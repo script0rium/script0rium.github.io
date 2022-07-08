@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Script0rium</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2022-07-08T19:18:05+08:00</updated>
+  <updated>2022-07-08T19:23:22+08:00</updated>
   <author>
     <name>James Philip</name>
     <uri>/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>An Anatomy of a Shell Script</title>
+    <link href="/posts/An-Anatomy-of-a-Shell-Script/" rel="alternate" type="text/html" title="An Anatomy of a Shell Script" />
+    <published>2022-05-01T00:00:00+08:00</published>
+  
+    <updated>2022-05-01T00:00:00+08:00</updated>
+  
+    <id>/posts/An-Anatomy-of-a-Shell-Script/</id>
+    <content src="/posts/An-Anatomy-of-a-Shell-Script/" />
+    <author>
+      <name>James Philip</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.
+
+Marijn Haverbeke
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -129,46 +169,6 @@ Were we to inspect one of the servers powering Google’s search technology, the
       Your Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T
 
 Most Linux system prompts display your username followed by your system, or host, name and the current working directory. For me it looks like this: james@scriptorium-ThinkPad-T430:~, with the Linux ‘metacharacter’, the tilde ~, representing my home directory. To find your system name input:hostname. The prompt is config...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>An Anatomy of a Shell Script</title>
-    <link href="/posts/An-Anatomy-of-a-Shell-Script/" rel="alternate" type="text/html" title="An Anatomy of a Shell Script" />
-    <published>2022-02-01T00:00:00+08:00</published>
-  
-    <updated>2022-02-01T00:00:00+08:00</updated>
-  
-    <id>/posts/An-Anatomy-of-a-Shell-Script/</id>
-    <content src="/posts/An-Anatomy-of-a-Shell-Script/" />
-    <author>
-      <name>James Philip</name>
-    </author>
-
-  
-    
-    <category term="Software" />
-    
-    <category term="Linux" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.
-
-Marijn Haverbeke
-
-
     </summary>
   
 

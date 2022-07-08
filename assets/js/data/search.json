@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "An Anatomy of a Shell Script",
+    "url": "/posts/An-Anatomy-of-a-Shell-Script/",
+    "categories": "Software, Linux",
+    "tags": "",
+    "date": "2022-05-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.Marijn Haverbeke"
+  },
+  
+  {
     "title": "LINUX. What is it? Why care?",
     "url": "/posts/Linux/",
     "categories": "Software, Linux",
@@ -43,21 +58,6 @@
 
 
     "snippet": "Your Linux adventure starts here $, at the shell prompt. Press Ctrl Alt TMost Linux system prompts display your username followed by your system, or host, name and the current working directory. For me it looks like this: james@scriptorium-ThinkPad-T430:~, with the Linux ‘metacharacter’, the tilde ~, representing my home directory. To find your system name input:hostname. The prompt is configurable.$ pwdoutputs the working directory.$ cdchanges directories. This command takes one ‘argument’, (additional information passed to the shell for processing alongside the command, i.e. filename, directory, device […]) In this case it is the target directory, e.g. cd Documents takes you to the Document directory, or folder.Inputting cd without an argument takes you back to your home directory, while cd .. moves you one directory up in the filesystem.Arguments will be shown in square brackets $ command [argument].$ ls [directory]lists the content of the current, or with an argument e.g. ls Documents, specified directory.Most commands can have one or more options, buttons which configure the command, tailoring its output. For ls such options include:$ ls -R  [directory]$ ls -a  [directory]$ ls -al [directory]    R  standing for recursively, so the command will list all directories and sub-directories.a  lists hidden files as well.al will list important file and directory information, such as permissions, size, owner.Commands can take multiple options. The full command syntax therefore, is:$ command [options] [argument 1] [argument 2] [...]$ cat [options] [filename]      short for concatenate, lists the contents of a file (in the standard output).$ man [options] [command]brings up the user manual of any Linux command.$ touch [options] [filename1] [filename2] [filename3]modifies timestamps for a given file, or creates a new, empty file if it does not yet exist. Takes multiple arguments, e.g. to create a batch of new files.$ sudo [options] [command]    precedes other commands, executing them with ‘super user’ permissions.$ date [options]outputs the date to standard output.$ mvacts as a cut and paste function.If the second argument is a directory this is the destination for the specified file.mv [options] [source file] [destination directory],or if used with a file as the second argument,mv [options] [source file] [target file], and [target file] doesn’t exist, it copies the first file and relabels it.$ grep [options] [string/pattern] [filename]Searches for a defined pattern, or ‘string’ from standard input, and prints the lines with the matching pattern."
-  },
-  
-  {
-    "title": "An Anatomy of a Shell Script",
-    "url": "/posts/An-Anatomy-of-a-Shell-Script/",
-    "categories": "Software, Linux",
-    "tags": "",
-    "date": "2022-02-01 00:00:00 +0800",
-    
-
-
-
-
-
-    "snippet": "A program is many things. It is a piece of text typed by a programmer, it is the directing force that makes the computer do what it does, it is data in the computer’s memory, yet it controls the actions performed on this same memory.Marijn Haverbeke"
   }
   
 ]
