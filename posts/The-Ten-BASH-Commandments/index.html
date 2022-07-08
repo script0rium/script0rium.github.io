@@ -35,8 +35,8 @@
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="The Ten BASH Commandments" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="We start here $, at the shell prompt. Press Ctrl Alt T" />
-<meta property="og:description" content="We start here $, at the shell prompt. Press Ctrl Alt T" />
+<meta name="description" content="The Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T" />
+<meta property="og:description" content="The Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T" />
 <link rel="canonical" href="/posts/The-Ten-BASH-Commandments/" />
 <meta property="og:url" content="/posts/The-Ten-BASH-Commandments/" />
 <meta property="og:site_name" content="Script0rium" />
@@ -45,7 +45,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Ten BASH Commandments" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-01T00:00:00+08:00","datePublished":"2022-02-01T00:00:00+08:00","description":"We start here $, at the shell prompt. Press Ctrl Alt T","headline":"The Ten BASH Commandments","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/The-Ten-BASH-Commandments/"},"url":"/posts/The-Ten-BASH-Commandments/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-01T00:00:00+08:00","datePublished":"2022-02-01T00:00:00+08:00","description":"The Linux adventure starts here $, at the shell prompt. Press Ctrl Alt T","headline":"The Ten BASH Commandments","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/The-Ten-BASH-Commandments/"},"url":"/posts/The-Ten-BASH-Commandments/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -454,7 +454,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="415 words">
+  title="428 words">
   <em>2 min</em> read</span>
 
 
@@ -467,7 +467,7 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>We start here <code class="language-plaintext highlighter-rouge">$</code>, at the shell prompt. Press <code class="language-plaintext highlighter-rouge">Ctrl Alt T</code></p>
+  <p>The Linux adventure starts here <code class="language-plaintext highlighter-rouge">$</code>, at the shell prompt. Press <code class="language-plaintext highlighter-rouge">Ctrl Alt T</code></p>
 
 <p>Most Linux system prompts display your username followed by your system, or host, name and the current working directory. For me it looks like this: <code class="language-plaintext highlighter-rouge">james@scriptorium-ThinkPad-T430:~</code>, with the Linux ‘metacharacter’, the tilde <code class="language-plaintext highlighter-rouge">~</code>, representing my home directory. To find your system name input:<code class="language-plaintext highlighter-rouge">hostname</code>. The prompt is configurable.</p>
 
@@ -483,7 +483,7 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>$ cd
 </pre></td></tr></tbody></table></code></div></div>
-<p>changes directories. This command takes one ‘argument’, (additional information for the shell to process alongside the command, such as filename, directory, device etc). In this case it is the target directory, e.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
+<p>changes directories. This command takes one ‘argument’, (additional information passed to the shell for processing alongside the command, i.e. filename, directory, device …). In this case it is the target directory, e.g. <code class="language-plaintext highlighter-rouge">cd Documents</code>, takes you to the Document directory, or folder.</p>
 
 <p>Inputting <code class="language-plaintext highlighter-rouge">cd</code> without an argument takes you back to your home directory, while <code class="language-plaintext highlighter-rouge">cd ..</code> moves you one directory up in the filesystem.</p>
 
@@ -492,9 +492,10 @@
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ ls
+</pre></td><td class="rouge-code"><pre>$ ls [directory]
 </pre></td></tr></tbody></table></code></div></div>
-<p>lists the content of the current, or specified e.g. <code class="language-plaintext highlighter-rouge">ls Documents</code>, directory.</p>
+
+<p>lists the content of the current, or with an argument e.g. <code class="language-plaintext highlighter-rouge">ls Documents</code>, specified directory.</p>
 
 <p>Most commands can have one or more options, buttons which configure the command, tailoring its output. For <code class="language-plaintext highlighter-rouge">ls</code> such options include:</p>
 
@@ -503,15 +504,16 @@
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>$ ls -R
-$ ls -a
-$ ls -al    
+</pre></td><td class="rouge-code"><pre>$ ls -R  [directory]
+$ ls -a  [directory]
+$ ls -al [directory]    
 </pre></td></tr></tbody></table></code></div></div>
+
 <p><code class="language-plaintext highlighter-rouge">R</code>  standing for recursively, so the command will list all directories and sub-directories.
 <code class="language-plaintext highlighter-rouge">a</code>  lists hidden files as well.
 <code class="language-plaintext highlighter-rouge">al</code> will list important file and directory information, such as permissions, size, owner.</p>
 
-<p>Commands can take multiple options. The full command syntax is:</p>
+<p>Commands can take multiple options. The full command syntax therefore, is:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
         <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
@@ -559,10 +561,10 @@ $ ls -al
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>$ mv
 </pre></td></tr></tbody></table></code></div></div>
-<p>renames or moves a file.</p>
+<p>acts as a cut and paste function.</p>
 
 <p>If the second argument is a directory this is the destination for the specified file.
-<code class="language-plaintext highlighter-rouge">mv [options][source file] [destination directory]</code>,</p>
+<code class="language-plaintext highlighter-rouge">mv [options] [source file] [destination directory]</code>,</p>
 
 <p>or if used with a file as the second argument,
 <code class="language-plaintext highlighter-rouge">mv [options] [source file] [target file]</code>, and <code class="language-plaintext highlighter-rouge">[target file]</code> doesn’t exist, it copies the first file and relabels it.</p>
